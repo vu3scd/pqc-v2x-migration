@@ -1,10 +1,10 @@
 # Quantum-Resistant Security in V2X and VANET
 ### A Structured Approach to Post-Quantum Cryptography Migration
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19488047.svg)](https://doi.org/10.5281/zenodo.19488047)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightblue.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/vu3scd/pqc-v2x-migration/releases)
 [![Article](https://img.shields.io/badge/format-Technical%20Article-green.svg)](https://github.com/vu3scd/pqc-v2x-migration/blob/main/Quantum-Resistant%20security%20in%20V2X%20and%20VANET.pdf)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19488047.svg)](https://doi.org/10.5281/zenodo.19488047)
 [![PQC](https://img.shields.io/badge/topic-Post--Quantum%20Cryptography-purple.svg)](https://csrc.nist.gov/projects/post-quantum-cryptography)
 
 > **Author:** Sumit Chouhan, TMIET 
