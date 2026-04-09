@@ -3,14 +3,14 @@
 ## Overview
 Vehicular communication security was designed for a world where elliptic curve cryptography (ECC) was considered computationally secure for the foreseeable future. That assumption is now weakening with the emergence of quantum computing. This repository presents a structured, implementation-aware approach to migrating V2X and VANET systems toward post-quantum cryptographic resilience.
 
-## Why This Matters
+## Why this matters
 
 * Vehicles operate for 12–20 years, far exceeding typical IT system lifecycles
 * Quantum threats are expected within that operational window
 * Current V2X security (IEEE 1609.2, ETSI C-ITS) relies heavily on ECC
 * “Harvest now, decrypt later” is already a real-world threat model
 
-## What This Repository Covers
+## What this repository covers
 
 * Current V2X cryptographic baseline and its limitations
 * PQC algorithm applicability (ML-KEM, ML-DSA, FALCON, SPHINCS+)
@@ -21,12 +21,12 @@ Vehicular communication security was designed for a world where elliptic curve c
   * embedded hardware constraints
 * Phased migration roadmap (2024–2035+)
 
-## Key Position
+## Key position
 
 Full PQC migration for high-frequency V2V safety messaging is not immediately achievable within current real-time and hardware constraints.
 Hybrid cryptography (ECC + PQC) is not a temporary workaround—it is the correct architectural approach for long-lifecycle vehicular systems.
 
-## Migration Principles
+## Migration principles
 
 * Start with infrastructure (SCMS / CCMS, OTA, backend systems)
 * Introduce PQC in key exchange before signatures
@@ -34,7 +34,7 @@ Hybrid cryptography (ECC + PQC) is not a temporary workaround—it is the correc
 * Design for crypto-agility from the outset
 * Align with regulatory frameworks (ISO/SAE 21434, UNECE R155)
 
-## Current Reality (2026–2030)
+## Current reality (2026–2030)
 
 * PQC viable for:
   * Certificate Authorities
@@ -54,7 +54,7 @@ Hybrid cryptography (ECC + PQC) is not a temporary workaround—it is the correc
 * Regulatory fragmentation
 * Privacy implications under larger certificate models
 
-## Future Work
+## Future work
 
 * Lightweight PQC for V2V environments
 * PQC-aware pseudonym certificate design
