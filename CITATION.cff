@@ -1,50 +1,30 @@
 cff-version: 1.2.0
-message: "If you reference, cite, or build upon this work, please use the following citation."
+message: "If you reference or build upon this work, please cite it using the metadata below."
 type: article
-
 title: "Quantum-Resistant Security in V2X and VANET: A Structured Approach to PQC Migration"
-
 authors:
-  - family-names: Chouhan
-    given-names: Sumit
-    name-suffix: TMIET
-    email: insanemechanic@proton.me
+  - family-names: "Chouhan"
+    given-names: "Sumit"
+    email: "insanemechanic@proton.me"
     website: "https://sumitchouhan.com"
-
-abstract: >
-  Current vehicular communication security was designed for a pre-quantum world.
-  This article examines where the cryptographic fault lines are in V2X and VANET
-  systems, which use cases demand attention first, how geography shapes the migration
-  strategy, and what realistic outcomes look like when post-quantum cryptography (PQC)
-  meets the hard real-time constraints of connected vehicles. It covers current
-  encryption standards (IEEE 1609.2, ETSI C-ITS), NIST PQC algorithm applicability
-  (ML-KEM, ML-DSA, FN-DSA, SLH-DSA), use case priority classification, regional
-  deployment boundaries, a layer-by-layer migration map, and a phased roadmap from
-  2024 to 2035+.
-
+abstract: "Current vehicular communication security was designed for a pre-quantum world. This article examines the cryptographic fault lines in V2X and VANET systems, which use cases demand attention first, how geography shapes the migration strategy, and what realistic outcomes look like when post-quantum cryptography meets the hard real-time constraints of connected vehicles. It covers current encryption standards (IEEE 1609.2, ETSI C-ITS), NIST PQC algorithm applicability (ML-KEM, ML-DSA, FN-DSA, SLH-DSA), use case priority classification, regional deployment boundaries, a layer-by-layer migration map, and a phased roadmap from 2024 to 2035+."
 keywords:
-  - post-quantum cryptography
-  - V2X
-  - VANET
-  - vehicular networks
-  - automotive cybersecurity
-  - PQC migration
-  - IEEE 1609.2
-  - ETSI C-ITS
-  - SCMS
-  - ML-KEM
-  - ML-DSA
-  - FALCON
-  - connected vehicles
-  - intelligent transportation systems
-  - cryptographic agility
-
-license: CC-BY-4.0
-
-repository-code: "https://github.com/vu3scd/pqc-v2x-migration"
-
-url: "https://sumitchouhan.com"
-
-date-released: "2026-04-09"
-
+  - "post-quantum cryptography"
+  - "V2X"
+  - "VANET"
+  - "vehicular networks"
+  - "automotive cybersecurity"
+  - "PQC migration"
+  - "IEEE 1609.2"
+  - "ETSI C-ITS"
+  - "SCMS"
+  - "ML-KEM"
+  - "ML-DSA"
+  - "connected vehicles"
+  - "intelligent transportation systems"
+  - "cryptographic agility"
+license: "CC-BY-4.0"
 version: "1.0.0"
+date-released: "2026-04-09"
+url: "https://github.com/vu3scd/pqc-v2x-migration"
+repository-code: "https://github.com/vu3scd/pqc-v2x-migration"
