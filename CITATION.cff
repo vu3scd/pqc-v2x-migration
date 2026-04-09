@@ -5,6 +5,7 @@ authors:
   given-names: "Sumit"
 title: "pqc-v2x-migration"
 version: 1.0.0
+doi: 10.5281/zenodo.19488047
 date-released: 2026-04-09
 url: "https://github.com/vu3scd/pqc-v2x-migration"
 preferred-citation:
@@ -14,4 +15,5 @@ preferred-citation:
     given-names: "Sumit"
   title: "Quantum-Resistant Security in V2X and VANET: A Structured Approach to PQC Migration"
   year: 2026
+  doi: "10.5281/zenodo.19488047"
   url: "https://github.com/vu3scd/pqc-v2x-migration"
