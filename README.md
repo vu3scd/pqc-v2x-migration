@@ -1,7 +1,6 @@
 # Post-Quantum Cryptography Migration in V2X and VANET Systems
 
 ## Overview
-
 Vehicular communication security was designed for a world where elliptic curve cryptography (ECC) was considered computationally secure for the foreseeable future. That assumption is now weakening with the emergence of quantum computing. This repository presents a structured, implementation-aware approach to migrating V2X and VANET systems toward post-quantum cryptographic resilience.
 
 ## Why This Matters
